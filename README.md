@@ -79,13 +79,13 @@ La empresa XYZ es una tienda de productos electrónicos que desea implementar un
 
 ## Pruebas
 
-Para ejecutar las pruebas, asegúrate de que Redis esté ejecutándose y luego usa \`pytest\`:
+Para ejecutar las pruebas, asegúrate de que Redis esté ejecutándose y luego usa **pytest:**
 
-\`\`\`sh
+
 PYTHONPATH=.. pytest   # En sistemas Unix
 # o
 set PYTHONPATH=.. && pytest   # En Windows
-\`\`\`
+
 
 ## Estructura del Proyecto
 
@@ -104,6 +104,7 @@ xyz_inventory_system/
 │   └── inventory.html
 └── static/
     └── style.css
+
 \`\`\`
 
 
