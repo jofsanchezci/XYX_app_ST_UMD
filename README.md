@@ -86,6 +86,13 @@ PYTHONPATH=.. pytest   # En sistemas Unix
 # o
 set PYTHONPATH=.. && pytest   # En Windows
 
+## Pruebas
+
+   * Registrar una venta con inventario insuficiente.
+   * Actualizar el inventario para un nuevo producto.
+   * Actualizar el inventario para un producto existente.
+   * Registrar una venta válida y verificar que el inventario se actualiza correctamente.
+   * Verificar que el precio de venta se actualiza correctamente en el inventario.
 
 ## Estructura del Proyecto
 
