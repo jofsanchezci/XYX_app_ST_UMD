@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>XYZ Inventory System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>XYZ Inventory System</h1>
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('sales') }}">Registrar Ventas</a></li>
+            <li><a href="{{ url_for('inventory') }}">Gestión de Inventario</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
